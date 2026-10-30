@@ -1,0 +1,39 @@
+# frame kind code qual   (key codes are Amiga raw keys, hex)
+5 shot 01_boot
+8 key 5f 0
+10 shot 02_help
+12 key 40 0
+14 key 5f 0
+16 key 59 0
+20 shot 03_disk
+22 key 4d 0
+24 key 44 0
+30 shot 04_arrange_loaded
+32 key 44 0
+120 shot 05_arrange_playing
+122 key 55 0
+130 shot 06_block_following
+200 key 40 0
+204 key 40 0
+206 key 31 0
+207 key 21 0
+208 key 32 0
+209 key 01 0
+212 shot 07_block_edit
+214 key 40 0
+216 key 57 0
+220 shot 08_sample
+222 move 40 60
+223 lmb 1 0
+224 move 120 0
+225 lmb 0 0
+228 shot 09_sample_range
+230 key 25 0
+232 type 8
+233 key 44 0
+240 shot 10_sample_chopped
+242 key 58 0
+246 shot 11_instruments
+248 key 45 0
+250 type y
+251 key 44 0

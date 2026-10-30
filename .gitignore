@@ -1,0 +1,8 @@
+build/
+dist/
+host/test
+host/replay
+host/replay_asan
+host/mkdemo
+__pycache__/
+*.pyc

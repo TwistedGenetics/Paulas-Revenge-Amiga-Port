@@ -1,0 +1,967 @@
+5 key 59 0
+6 shot z0006
+7 key 4d 0
+8 shot z0008
+9 key 44 0
+10 shot z0010
+11 shot f00_loaded
+13 key 55 0
+14 shot z0014
+15 key 36 8
+16 shot z0016
+17 key a 10
+18 shot z0018
+19 key 5e 0
+20 shot z0020
+21 key 5e 0
+22 shot z0022
+23 key 5e 0
+24 shot z0024
+25 key 40 0
+26 shot z0026
+27 key 31 0
+28 shot z0028
+29 key 4e 0
+30 shot z0030
+31 key 4e 0
+32 shot z0032
+33 key 4e 0
+34 shot z0034
+35 key a 0
+36 shot z0036
+37 key 4e 0
+38 shot z0038
+39 key a 0
+40 shot z0040
+41 key 4e 0
+42 shot z0042
+43 key 3 0
+44 shot z0044
+45 key 4e 0
+46 shot z0046
+47 key 7 0
+48 shot z0048
+49 key 4d 0
+50 shot z0050
+51 key 4d 0
+52 shot z0052
+53 key 4d 0
+54 shot z0054
+55 key 4d 0
+56 shot z0056
+57 key 4d 0
+58 shot z0058
+59 key 4d 0
+60 shot z0060
+61 key 4d 0
+62 shot z0062
+63 key 4d 0
+64 shot z0064
+65 key 4f 0
+66 shot z0066
+67 key 4f 0
+68 shot z0068
+69 key 4f 0
+70 shot z0070
+71 key a 0
+72 shot z0072
+73 key 4e 0
+74 shot z0074
+75 key 1 0
+76 shot z0076
+77 key 4e 0
+78 shot z0078
+79 key a 0
+80 shot z0080
+81 key 4e 0
+82 shot z0082
+83 key 8 0
+84 shot z0084
+85 key 4d 0
+86 shot z0086
+87 key 4d 0
+88 shot z0088
+89 key 4d 0
+90 shot z0090
+91 key 4d 0
+92 shot z0092
+93 key 4d 0
+94 shot z0094
+95 key 4d 0
+96 shot z0096
+97 key 4d 0
+98 shot z0098
+99 key 4d 0
+100 shot z0100
+101 key 4f 0
+102 shot z0102
+103 key 4f 0
+104 shot z0104
+105 key 4f 0
+106 shot z0106
+107 key 4f 0
+108 shot z0108
+109 key 4f 0
+110 shot z0110
+111 key 4f 0
+112 shot z0112
+113 key 33 0
+114 shot z0114
+115 key 4e 0
+116 shot z0116
+117 key 4e 0
+118 shot z0118
+119 key 4e 0
+120 shot z0120
+121 key a 0
+122 shot z0122
+123 key 4e 0
+124 shot z0124
+125 key 2 0
+126 shot z0126
+127 key 4e 0
+128 shot z0128
+129 key a 0
+130 shot z0130
+131 key 4e 0
+132 shot z0132
+133 key 8 0
+134 shot z0134
+135 key 4d 0
+136 shot z0136
+137 key 4d 0
+138 shot z0138
+139 key 4d 0
+140 shot z0140
+141 key 4d 0
+142 shot z0142
+143 key 4d 0
+144 shot z0144
+145 key 4d 0
+146 shot z0146
+147 key 4d 0
+148 shot z0148
+149 key 4d 0
+150 shot z0150
+151 key 4f 0
+152 shot z0152
+153 key 4f 0
+154 shot z0154
+155 key 4f 0
+156 shot z0156
+157 key 4f 0
+158 shot z0158
+159 key 4f 0
+160 shot z0160
+161 key 4f 0
+162 shot z0162
+163 key 34 0
+164 shot z0164
+165 key 4e 0
+166 shot z0166
+167 key 4e 0
+168 shot z0168
+169 key 4e 0
+170 shot z0170
+171 key a 0
+172 shot z0172
+173 key 4e 0
+174 shot z0174
+175 key 3 0
+176 shot z0176
+177 key 4e 0
+178 shot z0178
+179 key 1 0
+180 shot z0180
+181 key 4e 0
+182 shot z0182
+183 key a 0
+184 shot z0184
+185 key 4d 0
+186 shot z0186
+187 key 4d 0
+188 shot z0188
+189 key 4d 0
+190 shot z0190
+191 key 4d 0
+192 shot z0192
+193 key 4d 0
+194 shot z0194
+195 key 4d 0
+196 shot z0196
+197 key 4d 0
+198 shot z0198
+199 key 4d 0
+200 shot z0200
+201 key 4f 0
+202 shot z0202
+203 key 4f 0
+204 shot z0204
+205 key 4f 0
+206 shot z0206
+207 key a 0
+208 shot z0208
+209 key 4e 0
+210 shot z0210
+211 key 4 0
+212 shot z0212
+213 key 4e 0
+214 shot z0214
+215 key 4 0
+216 shot z0216
+217 key 4e 0
+218 shot z0218
+219 key 8 0
+220 shot z0220
+221 key 4d 0
+222 shot z0222
+223 key 4d 0
+224 shot z0224
+225 key 4d 0
+226 shot z0226
+227 key 4d 0
+228 shot z0228
+229 key 4d 0
+230 shot z0230
+231 key 4d 0
+232 shot z0232
+233 key 4d 0
+234 shot z0234
+235 key 4d 0
+236 shot z0236
+237 key 4f 0
+238 shot z0238
+239 key 4f 0
+240 shot z0240
+241 key 4f 0
+242 shot z0242
+243 key a 0
+244 shot z0244
+245 key 4e 0
+246 shot z0246
+247 key 5 0
+248 shot z0248
+249 key 4e 0
+250 shot z0250
+251 key a 0
+252 shot z0252
+253 key 4e 0
+254 shot z0254
+255 key 2 0
+256 shot z0256
+257 key 4d 0
+258 shot z0258
+259 key 4d 0
+260 shot z0260
+261 key 4d 0
+262 shot z0262
+263 key 4d 0
+264 shot z0264
+265 key 4d 0
+266 shot z0266
+267 key 4d 0
+268 shot z0268
+269 key 4d 0
+270 shot z0270
+271 key 4d 0
+272 shot z0272
+273 key 4f 0
+274 shot z0274
+275 key 4f 0
+276 shot z0276
+277 key 4f 0
+278 shot z0278
+279 key a 0
+280 shot z0280
+281 key 4e 0
+282 shot z0282
+283 key 6 0
+284 shot z0284
+285 key 4e 0
+286 shot z0286
+287 key 2 0
+288 shot z0288
+289 key 4e 0
+290 shot z0290
+291 key a 0
+292 shot z0292
+293 key 4d 0
+294 shot z0294
+295 key 4d 0
+296 shot z0296
+297 key 4d 0
+298 shot z0298
+299 key 4d 0
+300 shot z0300
+301 key 4f 0
+302 shot z0302
+303 key 4f 0
+304 shot z0304
+305 key 4f 0
+306 shot z0306
+307 key a 0
+308 shot z0308
+309 key 4e 0
+310 shot z0310
+311 key 22 0
+312 shot z0312
+313 key 4e 0
+314 shot z0314
+315 key a 0
+316 shot z0316
+317 key 4e 0
+318 shot z0318
+319 key 4 0
+320 shot z0320
+321 key 4d 0
+322 shot z0322
+323 key 4d 0
+324 shot z0324
+325 key 4d 0
+326 shot z0326
+327 key 4d 0
+328 shot z0328
+329 key 4f 0
+330 shot z0330
+331 key 4f 0
+332 shot z0332
+333 key 4f 0
+334 shot z0334
+335 key a 0
+336 shot z0336
+337 key 4e 0
+338 shot z0338
+339 key 33 0
+340 shot z0340
+341 key 4e 0
+342 shot z0342
+343 key 2 0
+344 shot z0344
+345 key 4e 0
+346 shot z0346
+347 key a 0
+348 shot z0348
+349 key 4d 0
+350 shot z0350
+351 key 4d 0
+352 shot z0352
+353 key 4d 0
+354 shot z0354
+355 key 4d 0
+356 shot z0356
+357 key 4f 0
+358 shot z0358
+359 key 4f 0
+360 shot z0360
+361 key 4f 0
+362 shot z0362
+363 key a 0
+364 shot z0364
+365 key 4e 0
+366 shot z0366
+367 key 8 0
+368 shot z0368
+369 key 4e 0
+370 shot z0370
+371 key 8 0
+372 shot z0372
+373 key 4e 0
+374 shot z0374
+375 key a 0
+376 shot z0376
+377 key 4d 0
+378 shot z0378
+379 key 4d 0
+380 shot z0380
+381 key 4f 0
+382 shot z0382
+383 key 4f 0
+384 shot z0384
+385 key 4f 0
+386 shot z0386
+387 key 4f 0
+388 shot z0388
+389 key 4f 0
+390 shot z0390
+391 key 4f 0
+392 shot z0392
+393 key 1 0
+394 shot z0394
+395 key 4c 0
+396 shot z0396
+397 key 4c 0
+398 shot z0398
+399 key 4c 0
+400 shot z0400
+401 key 4c 0
+402 shot z0402
+403 key 4c 0
+404 shot z0404
+405 key 4c 0
+406 shot z0406
+407 key 4c 0
+408 shot z0408
+409 key 4c 0
+410 shot z0410
+411 key 4c 0
+412 shot z0412
+413 key 4c 0
+414 shot z0414
+415 key 4c 0
+416 shot z0416
+417 key 4c 0
+418 shot z0418
+419 key 4c 0
+420 shot z0420
+421 key 4c 0
+422 shot z0422
+423 key 4c 0
+424 shot z0424
+425 key 4c 0
+426 shot z0426
+427 key 4c 0
+428 shot z0428
+429 key 4c 0
+430 shot z0430
+431 key 4c 0
+432 shot z0432
+433 key 4c 0
+434 shot z0434
+435 key 4c 0
+436 shot z0436
+437 key 4c 0
+438 shot z0438
+439 key 4c 0
+440 shot z0440
+441 key 4c 0
+442 shot z0442
+443 key 4c 0
+444 shot z0444
+445 key 4c 0
+446 shot z0446
+447 key 4c 0
+448 shot z0448
+449 key 4c 0
+450 shot z0450
+451 key 4c 0
+452 shot z0452
+453 key 4c 0
+454 shot z0454
+455 key 4c 0
+456 shot z0456
+457 key 4c 0
+458 shot z0458
+459 key 4c 0
+460 shot z0460
+461 key 4c 0
+462 shot z0462
+463 key 4c 0
+464 shot z0464
+465 key 4c 0
+466 shot z0466
+467 key 4c 0
+468 shot z0468
+469 key 4c 0
+470 shot z0470
+471 key 4c 0
+472 shot z0472
+473 key 4c 0
+474 shot z0474
+475 key 4c 0
+476 shot z0476
+477 key 4c 0
+478 shot z0478
+479 key 4c 0
+480 shot z0480
+481 key 4c 0
+482 shot z0482
+483 key 4c 0
+484 shot z0484
+485 key 4c 0
+486 shot z0486
+487 key 4c 0
+488 shot z0488
+489 key 4c 0
+490 shot z0490
+491 key 4c 0
+492 shot z0492
+493 key 4c 0
+494 shot z0494
+495 key 4c 0
+496 shot z0496
+497 key 4c 0
+498 shot z0498
+499 key 4c 0
+500 shot z0500
+501 key 4c 0
+502 shot z0502
+503 key 4c 0
+504 shot z0504
+505 key 4c 0
+506 shot z0506
+507 key 4c 0
+508 shot z0508
+509 key 4c 0
+510 shot z0510
+511 key 4c 0
+512 shot z0512
+513 key 4c 0
+514 shot z0514
+515 key 4c 0
+516 shot z0516
+517 key 4c 0
+518 shot z0518
+519 key 42 0
+520 shot z0520
+521 key 5e 0
+522 shot z0522
+523 key 31 0
+524 shot z0524
+525 key 4d 0
+526 shot z0526
+527 key 4d 0
+528 shot z0528
+529 key 4d 0
+530 shot z0530
+531 key 4d 0
+532 shot z0532
+533 key 21 0
+534 shot z0534
+535 key 4e 0
+536 shot z0536
+537 key 4e 0
+538 shot z0538
+539 key 4e 0
+540 shot z0540
+541 key 1 0
+542 shot z0542
+543 key 4e 0
+544 shot z0544
+545 key 23 0
+546 shot z0546
+547 key 4e 0
+548 shot z0548
+549 key 2 0
+550 shot z0550
+551 key 4e 0
+552 shot z0552
+553 key a 0
+554 shot z0554
+555 key 4d 0
+556 shot z0556
+557 key 4d 0
+558 shot z0558
+559 key 4d 0
+560 shot z0560
+561 key 4d 0
+562 shot z0562
+563 key 4f 0
+564 shot z0564
+565 key 4f 0
+566 shot z0566
+567 key 4f 0
+568 shot z0568
+569 key 4f 0
+570 shot z0570
+571 key 4f 0
+572 shot z0572
+573 key 4f 0
+574 shot z0574
+575 key 32 0
+576 shot z0576
+577 key 4e 0
+578 shot z0578
+579 key 4e 0
+580 shot z0580
+581 key 4e 0
+582 shot z0582
+583 key 1 0
+584 shot z0584
+585 key 4e 0
+586 shot z0586
+587 key 9 0
+588 shot z0588
+589 key 4e 0
+590 shot z0590
+591 key a 0
+592 shot z0592
+593 key 4e 0
+594 shot z0594
+595 key 4 0
+596 shot z0596
+597 key 4d 0
+598 shot z0598
+599 key 4d 0
+600 shot z0600
+601 key 4d 0
+602 shot z0602
+603 key 4d 0
+604 shot z0604
+605 key 4f 0
+606 shot z0606
+607 key 4f 0
+608 shot z0608
+609 key 4f 0
+610 shot z0610
+611 key 4f 0
+612 shot z0612
+613 key 4f 0
+614 shot z0614
+615 key 4f 0
+616 shot z0616
+617 key 22 0
+618 shot z0618
+619 key 4e 0
+620 shot z0620
+621 key 4e 0
+622 shot z0622
+623 key 4e 0
+624 shot z0624
+625 key 1 0
+626 shot z0626
+627 key 4e 0
+628 shot z0628
+629 key 23 0
+630 shot z0630
+631 key 4e 0
+632 shot z0632
+633 key a 0
+634 shot z0634
+635 key 4e 0
+636 shot z0636
+637 key 3 0
+638 shot z0638
+639 key 4d 0
+640 shot z0640
+641 key 4d 0
+642 shot z0642
+643 key 4d 0
+644 shot z0644
+645 key 4d 0
+646 shot z0646
+647 key 4f 0
+648 shot z0648
+649 key 4f 0
+650 shot z0650
+651 key 4f 0
+652 shot z0652
+653 key 4f 0
+654 shot z0654
+655 key 4f 0
+656 shot z0656
+657 key 4f 0
+658 shot z0658
+659 key 33 0
+660 shot z0660
+661 key 4d 0
+662 shot z0662
+663 key 4d 0
+664 shot z0664
+665 key 4d 0
+666 shot z0666
+667 key 4d 0
+668 shot z0668
+669 key 34 0
+670 shot z0670
+671 key 4e 0
+672 shot z0672
+673 key 4e 0
+674 shot z0674
+675 key 4e 0
+676 shot z0676
+677 key a 0
+678 shot z0678
+679 key 4e 0
+680 shot z0680
+681 key 33 0
+682 shot z0682
+683 key 4e 0
+684 shot z0684
+685 key 1 0
+686 shot z0686
+687 key 4e 0
+688 shot z0688
+689 key 8 0
+690 shot z0690
+691 key 4d 0
+692 shot z0692
+693 key 4d 0
+694 shot z0694
+695 key 4d 0
+696 shot z0696
+697 key 4d 0
+698 shot z0698
+699 key 4f 0
+700 shot z0700
+701 key 4f 0
+703 key 4f 0
+705 key 4f 0
+707 key 4f 0
+709 key 4f 0
+711 key 24 0
+713 key 4d 0
+715 key 4d 0
+717 key 4d 0
+719 key 4d 0
+721 key 35 0
+723 key 4e 0
+725 key 4e 0
+727 key 4e 0
+729 key 1 0
+731 key 4e 0
+733 key 23 0
+735 key 4e 0
+737 key 1 0
+739 key 4e 0
+741 key 2 0
+743 key 4c 0
+745 key 4c 0
+747 key 4c 0
+749 key 4c 0
+751 key 4c 0
+753 key 4c 0
+755 key 4c 0
+757 key 4c 0
+759 key 4c 0
+761 key 4c 0
+763 key 4c 0
+765 key 4c 0
+767 key 4c 0
+769 key 4c 0
+771 key 4c 0
+773 key 4c 0
+775 key 4c 0
+777 key 4c 0
+779 key 4c 0
+781 key 4c 0
+783 key 4c 0
+785 key 4c 0
+787 key 4c 0
+789 key 4c 0
+791 key 4c 0
+793 key 4c 0
+795 key 4c 0
+797 key 4c 0
+799 key 4f 0
+801 key 4f 0
+803 key 4f 0
+805 key 4f 0
+807 key 4f 0
+809 key 4f 0
+811 key 42 0
+813 key 4d 0
+815 key 4d 0
+817 key 4d 0
+819 key 4d 0
+821 key 4d 0
+823 key 4d 0
+825 key 4d 0
+827 key 4d 0
+829 key 4d 0
+831 key 4d 0
+833 key 4d 0
+835 key 4d 0
+837 key 4d 0
+839 key 4d 0
+841 key 4d 0
+843 key 4d 0
+845 key 4d 0
+847 key 4d 0
+849 key 4d 0
+851 key 4d 0
+853 key 4d 0
+855 key 4d 0
+857 key 4d 0
+859 key 4d 0
+861 key 4d 0
+863 key 4d 0
+865 key 4d 0
+867 key 4d 0
+869 key 4d 0
+871 key 4d 0
+873 key 4e 0
+875 key 4e 0
+877 key 4e 0
+879 key a 0
+881 key 4e 0
+883 key 9 0
+885 key 4e 0
+887 key a 0
+889 key 4e 0
+891 key 3 0
+893 key 4d 0
+895 key 4f 0
+897 key 4f 0
+899 key 4f 0
+901 key a 0
+903 key 4e 0
+905 key 23 0
+907 key 4e 0
+909 key 8 0
+911 key 4e 0
+913 key 33 0
+915 key 4d 0
+917 key 4d 0
+919 key 4d 0
+921 key 4d 0
+923 key 4d 0
+925 key 4d 0
+927 key 4d 0
+929 key 4d 0
+931 key 4d 0
+933 key 4d 0
+935 key 4d 0
+937 key 4d 0
+939 key 4d 0
+941 key 4d 0
+943 key 4d 0
+945 key 4d 0
+947 key 4d 0
+949 key 4d 0
+951 key 4d 0
+953 key 4d 0
+955 key 4d 0
+957 key 4d 0
+959 key 4d 0
+961 key 4d 0
+963 key 4d 0
+965 key 4d 0
+967 key 4d 0
+969 key 4d 0
+971 key 4d 0
+973 key 4d 0
+975 key 4d 0
+977 key 4d 0
+979 key 4f 0
+981 key 4f 0
+983 key 4f 0
+985 key a 0
+987 key 4e 0
+989 key 23 0
+991 key 4e 0
+993 key a 0
+995 key 4e 0
+997 key a 0
+999 key 40 0
+1001 shot f01_fx_block
+1003 key 4c 0
+1005 key 4c 0
+1007 key 4c 0
+1009 key 4c 0
+1011 key 4c 0
+1013 key 4c 0
+1015 key 4c 0
+1017 key 4c 0
+1019 key 4c 0
+1021 key 4c 0
+1023 key 4c 0
+1025 key 4c 0
+1027 key 4c 0
+1029 key 4c 0
+1031 key 4c 0
+1033 key 4c 0
+1035 key 4c 0
+1037 key 4c 0
+1039 key 4c 0
+1041 key 4c 0
+1043 key 4c 0
+1045 key 4c 0
+1047 key 4c 0
+1049 key 4c 0
+1051 key 4c 0
+1053 key 4c 0
+1055 key 4c 0
+1057 key 4c 0
+1059 key 4c 0
+1061 key 4c 0
+1063 key 4c 0
+1065 key 4c 0
+1067 key 4c 0
+1069 key 4c 0
+1071 key 4c 0
+1073 key 4c 0
+1075 key 4c 0
+1077 key 4c 0
+1079 key 4c 0
+1081 key 4c 0
+1083 key 4c 0
+1085 key 4c 0
+1087 key 4c 0
+1089 key 4c 0
+1091 key 4c 0
+1093 key 4c 0
+1095 key 4c 0
+1097 key 4c 0
+1099 key 4c 0
+1101 key 4c 0
+1103 key 4c 0
+1105 key 4c 0
+1107 key 4c 0
+1109 key 4c 0
+1111 key 4c 0
+1113 key 4c 0
+1115 key 4c 0
+1117 key 4c 0
+1119 key 4c 0
+1121 key 4c 0
+1123 key 4c 0
+1125 key 4c 0
+1127 key 4c 0
+1129 key 4f 0
+1131 key 4f 0
+1133 key 4f 0
+1135 key 4f 0
+1137 key 4f 0
+1139 key 4f 0
+1141 key 44 1
+1343 shot f02_fx_playing
+1345 key 40 0
+1347 key 8 10
+1349 key 44 1
+1471 key 40 0
+1473 key 34 10
+1475 key 34 11
+1477 key 57 0
+1479 key 1b 0
+1481 key 1b 0
+1483 key 1b 0
+1485 key 1b 0
+1487 key 1b 0
+1489 key 37 0
+1495 shot f03_monitor
+1497 key 37 0
+1499 key 10 0
+1501 key 13 0
+1503 type 22050
+1505 key 44 0
+1507 type 1
+1509 key 44 0
+1517 shot f04_recorded
+1519 key 20 0
+1521 key 40 0
+1553 key 55 0
+1555 key 46 8
+1557 type y
+1559 key 44 0
+1561 key 56 0
+1563 key 42 0
+1565 key 42 0
+1567 key 36 0
+1569 type outro
+1571 key 44 0
+1573 key 17 0
+1575 key 42 0
+1577 key 3a 0
+1579 key c 0
+1581 key b 0
+1583 key 42 0
+1585 key 20 0
+1587 key 36 0
+1589 key 46 0
+1591 shot f05_arrange
+1593 key 58 0
+1595 key 46 0
+1597 shot f06_instr_cleared
+1599 key 45 0
+1601 type y
+1603 key 44 0

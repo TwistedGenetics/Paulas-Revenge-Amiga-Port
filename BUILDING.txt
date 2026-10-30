@@ -1,0 +1,35 @@
+BUILDING PAULA'S REVENGE 1200
+
+  ./build.sh        -> build/PaulasRevenge (AmigaOS hunk executable)
+
+Toolchain: stock clang/llc 18 (m68k target) + tools/hunklink.py, a small
+ELF-to-Amiga-hunk linker. No NDK needed: amiga/amiga.h calls the OS through
+inline asm with the library vector offsets.
+
+LLVM 18's m68k backend has several bugs that produce wrong code on real
+680x0 hardware. build.sh works around all of them and fails the build if a
+new, unrecognised variant appears:
+  1. DIVU.L/DIVS.L encoded with the remainder register = D0 (tools/fixdiv.py)
+  2. register copies expanded to MOVE between a compare and its branch,
+     destroying the flags                                (tools/fixccr.py)
+  3. Scc results treated as 1 instead of $FF              (fixccr.py)
+  4. BTST condition inverted                              (fixccr.py)
+  5. 16-bit MOVEM spills encoded as MOVEM.L               (fixccr.py)
+  6. copies to/from CCR lose their register / emit MOVE to SR (fixccr.py)
+  7. SUBX used for carry masks after CMP (reads stale X)  (fixccr.py)
+  8. zero-extend into an address register ANDs a data register (fixccr.py)
+  9. variable index into a stack array is dropped         (tools/findframeidx.py
+     rejects it; use OPAQUE() from types.h)
+ 10. writes to globals become illegal PC-relative stores  (hunklink.py rejects
+     them: all state lives in App)
+ 11. the assembler encodes MOVEM -(sp) masks wrongly      (amiga/start.s avoids it)
+
+Testing
+  sim/      a 68020 interpreter with a fake AmigaOS + chipset (copper,
+            bitplanes, Paula 14-bit audio capture, CIA, dos.library)
+  host/     the same code built for Linux: unit tests (test.c) and a replay
+            harness (replay.c) that mirrors the Amiga's frame/audio timing
+  tools/verify.sh       runs scripted sessions on both and requires
+                        pixel-identical screens, bit-identical audio and
+                        byte-identical saved files
+  tools/fuzzrun.sh N n  random keyboard/mouse fuzzing, same comparison
