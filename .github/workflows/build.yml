@@ -2,8 +2,13 @@ name: Build and verify
 
 on:
   push:
+    branches: ['**']
+    tags: ['v*']
   pull_request:
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   amiga:
@@ -36,6 +41,23 @@ jobs:
             dist/PaulasRevenge.fs-uae
             dist/EMULATORS.txt
             README.txt
+
+      - name: Make download zip
+        run: |
+          VER=${GITHUB_REF_NAME//\//-}
+          mkdir -p "release/PaulasRevenge-$VER"
+          cp dist/PaulasRevenge.adf dist/PaulasRevenge dist/demo.prv dist/PaulasRevenge-WinUAE.uae dist/PaulasRevenge.fs-uae dist/EMULATORS.txt README.txt "release/PaulasRevenge-$VER/"
+          (cd release && zip -qr "PaulasRevenge-$VER.zip" "PaulasRevenge-$VER")
+          echo "ZIP=release/PaulasRevenge-$VER.zip" >> "$GITHUB_ENV"
+
+      - name: Publish GitHub release (version tags only)
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" "$ZIP" dist/PaulasRevenge.adf \
+            --title "Paula's Revenge 1200 $GITHUB_REF_NAME" \
+            --notes-file .github/release-notes.md
 
       - name: Upload test screenshots on failure
         if: failure()

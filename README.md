@@ -11,7 +11,9 @@ A native Amiga 1200 tracker in the spirit of OctaMED 4, built for 68060 / PiStor
 
 ## Getting it
 
-Every push builds `PaulasRevenge.adf` (bootable floppy), the `PaulasRevenge` executable and `demo.prv`. Download them from the **Actions** tab → latest run → *PaulasRevenge-amiga* artifact.
+**[Download the latest release](https://github.com/TwistedGenetics/Paulas-Revenge-Amiga-Port/releases/latest)**: `PaulasRevenge.adf` (bootable floppy), or the zip with the executable, demo song, emulator configs and manual.
+
+Every push also builds a test copy, available from the **Actions** tab (latest run → *PaulasRevenge-amiga*).
 
 Boot the ADF, or copy the executable to your hard drive and run it from a Shell. Press **F10**, open `demo.prv`, then **Return** to play. **HELP** lists every key.
 
