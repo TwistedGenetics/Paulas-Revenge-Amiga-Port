@@ -15,6 +15,10 @@ Every push builds `PaulasRevenge.adf` (bootable floppy), the `PaulasRevenge` exe
 
 Boot the ADF, or copy the executable to your hard drive and run it from a Shell. Press **F10**, open `demo.prv`, then **Return** to play. **HELP** lists every key.
 
+## Emulators
+
+Ready-made configs for **WinUAE** (Windows) and **FS-UAE** (Mac/Linux/Windows) are in [`emulators/`](emulators) and included in every build download. They emulate an A1200 with a fast JIT 68040, similar to a PiStorm. You supply your own Kickstart 3.x ROM. See [emulators/EMULATORS.txt](emulators/README.txt).
+
 ## Features
 
 - OctaMED-style block editor: 1–16 tracks, blocks of 1–256 lines, two-row piano keyboard, F1–F5 octaves

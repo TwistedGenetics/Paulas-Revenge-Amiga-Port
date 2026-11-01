@@ -1,0 +1,40 @@
+; Paula's Revenge 1200 - WinUAE configuration
+; A1200 (AGA, PAL) with a fast JIT 68040 + 64 MB Fast RAM, similar to a PiStorm.
+; After loading: pick your Kickstart 3.x ROM (ROM tab) and PaulasRevenge.adf
+; (Floppy drives tab) if WinUAE can't find them, then Save the config.
+config_description=Paula's Revenge 1200 (A1200 + fast 68040, like a PiStorm)
+use_gui=yes
+kickstart_rom_file=
+floppy0=PaulasRevenge.adf
+floppy0type=0
+nr_floppies=1
+chipset=aga
+chipset_compatible=A1200
+ntsc=false
+chipmem_size=4
+fastmem_size=0
+bogomem_size=0
+z3mem_size=64
+cpu_model=68040
+fpu_model=68040
+cpu_speed=max
+cpu_compatible=false
+cpu_24bit_addressing=false
+cycle_exact=false
+cachesize=16384
+comp_trustbyte=indirect
+comp_trustword=indirect
+comp_trustlong=indirect
+comp_trustnaddr=indirect
+sound_output=exact
+sound_channels=stereo
+sound_stereo_separation=10
+sound_stereo_mixing_delay=0
+sound_filter=emulated
+sound_filter_type=enhanced
+sound_frequency=48000
+gfx_lores=false
+gfx_resolution=hires
+gfx_linemode=double
+gfx_center_horizontal=simple
+gfx_center_vertical=simple

@@ -1,0 +1,32 @@
+RUNNING PAULA'S REVENGE 1200 IN AN EMULATOR
+
+Both configs set up an A1200 (AGA, PAL) with a JIT-compiled 68040 running as
+fast as your PC/Mac allows, plus 64 MB of Fast RAM. That's close to how a
+PiStorm behaves: the tracker gets plenty of CPU for its 16-track mixer.
+
+You need an A1200 Kickstart 3.x ROM (from Amiga Forever, Hyperion's 3.1.4/3.2,
+or dumped from your own A1200). The configs can't include it.
+
+WinUAE (Windows)
+  1. Copy PaulasRevenge-WinUAE.uae and PaulasRevenge.adf into WinUAE's
+     Configurations folder.
+  2. Start WinUAE, select the config and click Load.
+  3. ROM tab: choose your Kickstart. Floppy drives tab: if DF0 is empty,
+     choose PaulasRevenge.adf. Click Save so you only do this once.
+  4. Click Start. The disk boots straight into the tracker.
+
+FS-UAE (Mac, Linux, Windows)
+  1. Put your Kickstart ROM in FS-UAE's Kickstarts folder.
+  2. Put PaulasRevenge.fs-uae and PaulasRevenge.adf together in FS-UAE's
+     Configurations folder.
+  3. Launch the config from the FS-UAE launcher.
+
+Notes
+  - Keep the Amiga on its native display. If you later run Workbench on an
+    RTG/UAEGFX screen, the tracker still draws on the native AGA display, so
+    make sure the emulator's native/RTG auto-switch is on.
+  - Stereo separation is set to 100% so the left/right channels stay apart.
+  - The A1200 low-pass filter is emulated. If the sound seems dull, check
+    your emulator's filter setting.
+  - A parallel-port sampler isn't emulated, so recording (R) will capture
+    silence. Load samples from disk instead (F10).

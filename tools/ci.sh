@@ -23,3 +23,4 @@ printf 'PaulasRevenge\n' > startup-sequence
 python3 ../tools/mkadf.py ../dist/PaulasRevenge.adf PaulasRevenge PaulasRevenge=PaulasRevenge demo.prv=demo.prv README.txt=../README.txt s/startup-sequence=startup-sequence
 python3 ../tools/readadf.py ../dist/PaulasRevenge.adf
 cp PaulasRevenge demo.prv ../dist/
+cp ../emulators/* ../dist/

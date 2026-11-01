@@ -32,6 +32,9 @@ jobs:
             dist/PaulasRevenge.adf
             dist/PaulasRevenge
             dist/demo.prv
+            dist/PaulasRevenge-WinUAE.uae
+            dist/PaulasRevenge.fs-uae
+            dist/EMULATORS.txt
             README.txt
 
       - name: Upload test screenshots on failure

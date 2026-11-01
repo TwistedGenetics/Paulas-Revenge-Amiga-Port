@@ -1,0 +1,21 @@
+[fs-uae]
+# Paula's Revenge 1200 - FS-UAE configuration (Mac, Linux, Windows)
+# A1200 (AGA, PAL) with a fast JIT 68040 + 64 MB Fast RAM, similar to a PiStorm.
+# FS-UAE finds your A1200 Kickstart automatically if it's in its Kickstarts folder.
+# Keep PaulasRevenge.adf next to this file, or change the path below.
+title = Paula's Revenge 1200
+amiga_model = A1200
+ntsc_mode = 0
+cpu = 68040
+fpu = 68040
+jit_compiler = 1
+uae_cpu_speed = max
+uae_cpu_compatible = false
+uae_cycle_exact = false
+chip_memory = 2048
+zorro_iii_memory = 65536
+floppy_drive_0 = PaulasRevenge.adf
+floppy_drive_count = 1
+uae_sound_stereo_separation = 10
+uae_sound_filter = emulated
+uae_sound_filter_type = enhanced
